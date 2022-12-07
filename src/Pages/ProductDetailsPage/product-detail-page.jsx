@@ -260,8 +260,8 @@ function ProductDetailsPage() {
                       </div>
                       <button
                         className="add-to-cart"
-                        onClick={(e) => {
-                          handleCartSubmit(e, obj.discount_product_id);
+                        onClick={() => {
+                          navigate("/maintenance");
                         }}
                       >
                         ADD TO CART
